@@ -1,0 +1,20 @@
+*{
+	font-family: '微软雅黑';
+}
+
+/* 每个toastr距离上边距的距离 */
+.toast-top-right{
+	margin-top:40px;
+}
+
+/* 每个toastr距离上边距的距离 */
+#example1_filter.dataTables_filter{
+	float:right;
+}
+
+
+
+/* 表格里面input空间宽度auto改成100% */
+table .form-control {
+    width: 100% !important;
+}

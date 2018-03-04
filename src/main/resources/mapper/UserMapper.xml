@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weixin.dao.UserMapper">
+  <resultMap id="BaseResultMap" type="com.weixin.vo.User">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="realname" jdbcType="VARCHAR" property="realname" />
+    <result column="groupname" jdbcType="VARCHAR" property="groupname" />
+    <result column="pass" jdbcType="VARCHAR" property="pass" />
+    <result column="power" jdbcType="VARCHAR" property="power" />
+    <result column="lasttime" jdbcType="VARCHAR" property="lasttime" />
+    <result column="nowtime" jdbcType="VARCHAR" property="nowtime" />
+    <result column="lastip" jdbcType="VARCHAR" property="lastip" />
+    <result column="nowip" jdbcType="VARCHAR" property="nowip" />
+    <result column="officecall" jdbcType="VARCHAR" property="officecall" />
+    <result column="homecall" jdbcType="VARCHAR" property="homecall" />
+    <result column="mobilenumber" jdbcType="VARCHAR" property="mobilenumber" />
+    <result column="shortnumber" jdbcType="VARCHAR" property="shortnumber" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="qq" jdbcType="VARCHAR" property="qq" />
+    <result column="msn" jdbcType="VARCHAR" property="msn" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="zhicheng" jdbcType="VARCHAR" property="zhicheng" />
+    <result column="xuewei" jdbcType="VARCHAR" property="xuewei" />
+    <result column="banji" jdbcType="VARCHAR" property="banji" />
+    <result column="zhuanyename" jdbcType="VARCHAR" property="zhuanyename" />
+    <result column="zhidaorenshu" jdbcType="INTEGER" property="zhidaorenshu" />
+    <result column="jidiname" jdbcType="VARCHAR" property="jidiname" />
+    <result column="innerteachername" jdbcType="VARCHAR" property="innerteachername" />
+    <result column="outerteachername" jdbcType="VARCHAR" property="outerteachername" />
+    <result column="A" jdbcType="INTEGER" property="a" />
+    <result column="B" jdbcType="INTEGER" property="b" />
+    <result column="C" jdbcType="INTEGER" property="c" />
+    <result column="D" jdbcType="INTEGER" property="d" />
+    <result column="E" jdbcType="INTEGER" property="e" />
+    <result column="F" jdbcType="INTEGER" property="f" />
+    <result column="G" jdbcType="INTEGER" property="g" />
+    <result column="H" jdbcType="INTEGER" property="h" />
+    <result column="I" jdbcType="INTEGER" property="i" />
+    <result column="J" jdbcType="INTEGER" property="j" />
+    <result column="K" jdbcType="INTEGER" property="k" />
+    <result column="L" jdbcType="INTEGER" property="l" />
+    <result column="M" jdbcType="INTEGER" property="m" />
+    <result column="N" jdbcType="INTEGER" property="n" />
+  </resultMap>
+</mapper>
